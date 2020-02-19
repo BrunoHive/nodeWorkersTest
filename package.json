@@ -1,0 +1,20 @@
+{
+  "name": "node12",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bruno Santos <bruno.santos@casaamerica.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn dev",
+    "dev": "node --inspect-brk=3000 app/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "express": "^4.17.1",
+    "inquirer": "^7.0.4",
+    "ora": "^4.0.3"
+  }
+}
